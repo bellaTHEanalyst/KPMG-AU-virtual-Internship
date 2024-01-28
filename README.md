@@ -1,10 +1,37 @@
 # KPMG-AU-virtual-Internship
 
-## Background Information
+## Task 1: Data Quality Assessment
 
-Sprocket Central Pty Ltd (fictional company), a medium size bikes & cycling accessories organization based in Australia.
+I arrive at my desk after the initial client meeting. I have a voicemail on my phone which contains the following instructions.
 
-Primarily, Sprocket Central Pty Ltd needs help with its customer and transactions data. The organization has a large dataset relating to its customers, but their team is unsure how to effectively analyze it to help optimize its marketing strategy.
+[Voicemail transcript below]
+ 
+
+“Hi there – Welcome again to the team! The client has asked our team to assess the quality of their data; as well as make recommendations on ways to clean the underlying data and mitigate these issues.  Can you please take a look at the datasets we’ve received and draft an email to them identifying the data quality issues and how this may impact our analysis going forward?
+
+I will send through an example of a typical data quality framework that can be used as a guide. Remember to consider the join keys between the tables too. Thanks again for your help.”
+
+
+[Read email below]
+
+Hi there,
+
+As per voicemail, please find the 3 datasets attached from Sprocket Central Pty Ltd:
+
+Customer Demographic 
+Customer Addresses
+Transaction data in the past three months
+Can you please review the data quality to ensure that it is ready for our analysis in phase two. Remember to take note of any assumptions or issues we need to go back to the client on. As well as recommendations going forward to mitigate current data quality concerns.
+
+I’ve also attached a data quality framework as a guideline. Let me know if you have any questions.
+
+Thanks for your help.
+
+Kind Regards
+Your Manager
+
+
+ 
 
 Here is my task:
 
@@ -25,36 +52,71 @@ Data Insights: Targeting high value customers based on customers demographic and
 
 Data Insights and Presentation: Using visualizations to present insights.
 
-**Data Quality Assessment**
+## TASK 1
+ 
+Subject: Addressing Data Quality Issues and Mitigation Strategies
 
-During this task, assessment of data quality and completeness was done on the three (3) datasets and recommendations are provided in preparation for analysis using Excel Spreadsheet.
+Dear Sprocket Central Pty Ltd,
 
-Some of the data issues:
+I hope this email finds you well. We have conducted a thorough review of the data sets provided, and I wanted to bring to your attention some data quality issues that we have identified along with suggested strategies for mitigation.
 
-Quality issues
+- Transaction Dataset:
 
-Transaction dataset
+Quality Issues:
+Blank cells in the fields of online order, brand, product line, product class, product size, list price, standard cost, and product first sold date.
+Inconsistent data types across the table.
 
-Online order, brand, product line, product class, product size, list price, standard cost, and product first sold date fields has blank cells.
+- Customer Demographic Dataset:
 
-Inconsistent data type  across table.
-
-No duplicate  found.
-
-Customer Demographic dataset
-
-Last name, DOB, Job title, tenure fields contains blank cells.
+Quality Issues:
+Blank cells in last name, DOB, job title, and tenure fields.
 
 Incorrect data (U, F, M, Femal) in the Gender field.
 
 Incorrect data in the DOB field.
 
-The default column also had to be deleted as it contained non-printable letters.
+Deletion of the default column containing non-printable letters.
 
- customer_address dataset
- Data Inconsistency in the state NSW / VIC could have been used throughout the data entry than mixing with New South Wales and Victoria respectively.
+- Customer Address Dataset:
 
-### The email
- 
+Quality Issues:
 
+Data inconsistency in the state (NSW / VIC). It would be preferable to consistently use either "NSW" or "VIC" throughout the data entry instead of mixing with New South Wales and Victoria, respectively.
+
+**Mitigation Strategies:**
+
+Standardization:
+
+Standardize the entry format for categorical variables (e.g., gender) to avoid inconsistencies.
+
+Implement data validation rules to ensure completeness in essential fields.
+
+Cleaning:
+Address blank cells through imputation techniques based on the context of each dataset.
+
+Correct data inaccuracies manually or through automated data cleaning processes.
+
+Documentation:
+
+Establish clear data entry guidelines, especially for state abbreviations, to maintain consistency.
+
+Provide training and resources to data entry personnel for accurate and uniform data input.
+
+Regular Audits:
+
+Implement regular data audits to identify and rectify any emerging issues promptly.
+
+Set up automated alerts for potential errors during data entry.
+
+By addressing these data quality issues and implementing the suggested strategies, we aim to enhance the accuracy, completeness, and consistency of your datasets. This, in turn, will contribute to more reliable analyses and decision-making processes.
+
+Please feel free to reach out if you have any questions or if you would like to discuss these strategies further.
+
+Best regards,
+
+Isabella Martins,
+
+Data Analyst,
+
+Martinzzbella@gmail.com.
  
