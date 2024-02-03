@@ -62,7 +62,7 @@ Dear Sprocket Central Pty Ltd,
 
 I hope this email finds you well. We have conducted a thorough review of the data sets provided, and I wanted to bring to your attention some data quality issues that we have identified along with suggested strategies for mitigation.
 
-- Transaction Dataset:
+ - Transaction Dataset:
 
 Quality Issues:
 Blank cells in the fields of online order, brand, product line, product class, product size, list price, standard cost, and product first sold date.
@@ -128,11 +128,11 @@ Martinzzbella@gmail.com.
 
 The three phases involved in this module were;
 
-· Data Exploration
+- Data Exploration
 
-· Model development
+-  Model development
 
-· Interpretation
+-  Interpretation
 
 Data exploration
  
