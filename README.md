@@ -1,6 +1,6 @@
 # KPMG-AU-virtual-Internship
 
-![](https://github.com/bellaTHEanalyst/KPMG-AU-virtual-Internship/blob/main/KpmgImage.jfif)
+![](https://github.com/bellaTHEanalyst/KPMG-AU-virtual-Internship/blob/main/kpmgJpeg.webp)
 
 ## Task 1: Data Quality Assessment
 
@@ -54,7 +54,7 @@ Data Insights: Targeting high value customers based on customers demographic and
 
 Data Insights and Presentation: Using visualizations to present insights.
 
-## TASK 1
+## TASK 1 SOLUTION
  
 Subject: Addressing Data Quality Issues and Mitigation Strategies
 
@@ -121,4 +121,18 @@ Isabella Martins,
 Data Analyst,
 
 Martinzzbella@gmail.com.
+
+## Task 2:Data insights
+
+ Using the result from Task 1 I would be analyzing  the  cleaned datasets (from Task 1) to uncover patterns and trend which would be used to help make informed decision about the 1000 new customers (in the new_customer dataset) should be targeted to drive the most value for the organization. (SPROCKET LTD.)
+
+The three phases involved in this module were;
+
+· Data Exploration
+
+· Model development
+
+· Interpretation
+
+Data exploration
  
