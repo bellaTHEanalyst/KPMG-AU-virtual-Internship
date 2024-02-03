@@ -1,5 +1,7 @@
 # KPMG-AU-virtual-Internship
 
+![](https://github.com/bellaTHEanalyst/KPMG-AU-virtual-Internship/blob/main/KpmgImage.jfif)
+
 ## Task 1: Data Quality Assessment
 
 I arrive at my desk after the initial client meeting. I have a voicemail on my phone which contains the following instructions.
